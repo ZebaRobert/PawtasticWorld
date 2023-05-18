@@ -52,6 +52,44 @@ nav li:active {
     border: 4px solid red;
 }
 
+/* Body */
 
+body{
+
+}
+
+/* Welcome section  */
+
+#welcome_sec{
+    width: 80%;
+    height: 70vh;
+    border: 3px solid orangered;
+}
+
+#welcome_img{
+    width: 80%;
+    border: 2px solid gold;   
+}
+
+#welcome_img > img{
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid lightblue;
+}
+
+#welcome_img figcaption{
+    text-align: center;
+}
+
+#welcome_sec h1, #welcome_sec h2{
+    text-align: center;
+    padding-top: 10px;
+}
+
+#welcome_sec p {
+    width: 90%;
+    padding-top:10px;
+    text-align:center;
+}
 
 
