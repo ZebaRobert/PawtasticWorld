@@ -58,11 +58,11 @@ body{
 
 }
 
+/* Index page */
 /* Welcome section  */
 
 #welcome_sec{
     width: 80%;
-    height: 70vh;
     border: 3px solid orangered;
 }
 
@@ -72,9 +72,12 @@ body{
 }
 
 #welcome_img > img{
-    width: 100%;
+    height: 600px;
+    width: 70%;
     border-radius: 50%;
     border: 2px solid lightblue;
+    position: relative;
+    left: 15%;
 }
 
 #welcome_img figcaption{
@@ -92,4 +95,85 @@ body{
     text-align:center;
 }
 
+/* World map section */
 
+#world_map{
+    margin-top:30px;
+    width: 100%;
+    height: 100vh;
+    background: url(../images/general/world_map.jpg) center/cover no-repeat;
+    position: relative;
+}
+
+.hover_box {
+    border: 2px solid rgb(156, 167, 91);
+    position: absolute;
+    opacity: 0;
+}
+  
+.hover_box h1 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+    color: orangered;
+    position: relative;
+    top: 45%;
+    opacity: 0;
+}
+  
+.hover_box:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+  
+.hover_box:hover h1 {
+    opacity: 1;
+}
+
+#north_america{
+    top: 5%;
+    left: 15%;
+    width:20%;
+    height: 40%;
+}
+
+#south_america{
+    top: 42%;
+    left: 27%;
+    width: 14%;
+    height:40%;
+}
+
+#antarctica{
+    bottom: 0%;
+    width: 100%;
+    height:15%;
+}
+
+#europe{
+    top: 5%;
+    left: 46%;
+    width: 14%;
+    height:30%;
+}
+
+#azia{
+    top: 5%;
+    left: 60%;
+    width: 35%;
+    height:40%;
+}
+
+#australia{
+    top: 53%;
+    left: 81%;
+    width: 12%;
+    height:22%;
+}
+
+#africa{
+    top: 28%;
+    left: 45%;
+    width: 20%;
+    height:42%;
+}
