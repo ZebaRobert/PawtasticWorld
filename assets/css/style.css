@@ -177,3 +177,66 @@ body{
     width: 20%;
     height:42%;
 }
+
+/* Photo section */
+ 
+/* Section Info */
+
+#photo_sec {
+    width: 80%;
+    border: 2px solid brown;
+}
+
+.wrapper {
+    margin-top: 20px;
+    width: 100%;
+}
+.left {
+    border: 2px solid blue;
+    position: relative;
+    width: 40%;
+    left: 0;
+    display: inline-block;
+}
+
+.left h2{
+    text-align: center;
+}
+
+.left p{
+    padding: 15px;
+}
+
+.left li {
+    padding: 5px 15px;
+}
+
+.left hr{
+    width: 50%;
+}
+
+.separator{
+    opacity: 0;
+}
+
+.right {
+    border: 2px solid blue;
+    width: 40%;
+    position: relative;
+    left: 60%;
+    display: inline-block;
+}
+
+.right h2{
+    text-align: center;
+}
+
+.right p{
+    padding: 15px;
+}
+
+.right hr{
+    width: 50%;
+}
+
+/* Mini gallery */
