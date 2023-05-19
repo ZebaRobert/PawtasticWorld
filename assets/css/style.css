@@ -257,7 +257,8 @@ body{
 }
 
 .img_selector {
-    display: block;
+    display: flex;
+    vertical-align: middle;
     width: 80%;
     border: 2px solid green;
     font-size: 0;
@@ -267,8 +268,8 @@ body{
     border: 2px solid hotpink;
     list-style-type: none;
     display: inline-block;
-    margin: 15px 5% 15px 4%;
-    width: 10%;
+    margin: 15px 0;
+    width: 200px;
     height: 100px;
     background-color: aqua; 
     border-radius: 5px;
@@ -292,4 +293,34 @@ body{
 
 .img_selector li:hover{
     border: 4px solid lightcoral;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 8vh;
+    background-color: brown;
+    font-size: xx-large;
+    position: absolute;
+    bottom: 0;
+}
+
+footer ul {
+    width: 80%;
+    display: flex;
+}
+
+footer li {
+    margin-top: 20px;
+    list-style-type: none;
+    display: inline-block;
+    color: burlywood;
+    text-decoration: none;
+}
+
+footer li:hover{
+    transform: translateY(-5px);
+    transition: transform 2sec;
+    color: darkred;
 }
