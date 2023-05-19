@@ -343,12 +343,13 @@ footer li:hover{
     color: darkred;
 }
 
-/* Categorys page */
+/* Flex grid */
 
 .flex_contener{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .flex_contener a {
@@ -356,15 +357,18 @@ footer li:hover{
 }
 
 .flex_item{
-    flex: 30%;
-    margin: 15% 3%;
+    flex: 27%;
+    margin: 8% 3%;
     background-color: crimson;
-    height: 550px;
+    height: 450px;
     border: 2px solid black;
     border-radius: 30px;
 }
 
-.flex_item img {
+.bigger_item{
+    height: 500px;
+}
+.flex_item figure img, .flex_item img {
     max-width: 100%;
     max-height: 80%;
     border-bottom: 2px solid black;
@@ -376,4 +380,12 @@ footer li:hover{
     font-size: xx-large;
     text-align:center ;
     padding-top: 50px;
+}
+
+/* Animal page */
+
+input[type="checkbox"]:checked + .flex_item {
+    flex: 100%;
+    transition: flex 2s ease;
+    margin-bottom: 10px;
 }
