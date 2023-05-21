@@ -274,41 +274,42 @@ html, body{
 }
 
 .img_selection {
-    display: flex;
-    vertical-align: middle;
     width: 80%;
     border: 2px solid green;
-    font-size: 0;
+    list-style: none;
 }
 
-.img_selection li {
+.img_selection a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.img_selection span {
+    flex: 1 1;
     border: 2px solid hotpink;
-    list-style-type: none;
-    display: inline-block;
-    margin: 15px 0;
-    width: 200px;
-    height: 100px;
-    background-color: aqua; 
+    height: 100px; 
     border-radius: 5px;
+    margin: 10px 15px;
 }
 
-#li_1{
+#span_1{
     background: url(../images/weekly/Buck.jpg) center/cover no-repeat;
 }
-#li_2{
+#span_2{
     background: url(../images/weekly/elephant.jpg) center/cover no-repeat;
 }
-#li_3{
+#span_3{
     background: url(../images/weekly/fox.jpg) center/cover no-repeat;
 }
-#li_4{
+#span_4{
     background: url(../images/weekly/leopard.jpg) center/cover no-repeat;
 }
-#li_5{
+#span_5{
     background: url(../images/weekly/Monkey.jpg) center/cover no-repeat;
 }
 
-.img_selection li:hover{
+.img_selection span:hover{
     border: 4px solid lightcoral;
 }
 
@@ -347,9 +348,10 @@ footer li:hover{
 
 .flex_contener{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .flex_contener a {
@@ -357,7 +359,7 @@ footer li:hover{
 }
 
 .flex_item{
-    flex: 27%;
+    flex: 1 1 25%;
     margin: 8% 3%;
     background-color: crimson;
     height: 450px;
@@ -368,9 +370,10 @@ footer li:hover{
 .bigger_item{
     height: 500px;
 }
-.flex_item figure img, .flex_item img {
+
+.flex_item figure img {
     max-width: 100%;
-    max-height: 80%;
+    max-height: 70%;
     border-bottom: 2px solid black;
     border-radius: 28px;
 }
@@ -384,8 +387,68 @@ footer li:hover{
 
 /* Animal page */
 
+/* Checkbox style */
+
 input[type="checkbox"]:checked + .flex_item {
     flex: 100%;
+    height: min-content;
     transition: flex 2s ease;
     margin-bottom: 10px;
+    z-index: 2;
+}
+
+input[type="checkbox"]:checked + .flex_item figure {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+/* Card style */
+
+.card{
+    position: relative;
+}
+
+.card_left{
+    width: 70%;
+    float: left;
+    background-color: darkorchid;
+}
+
+.card_right{
+    background-color: orange;
+    width: 30%;
+    float: right;
+}
+
+.card_gallery{
+    height: 40vh;
+}
+
+.img_display{
+    width: 80%;
+    overflow: hidden;
+    border: 4px solid black;
+    border-radius: 10px;
+    height: 100%;
+    float: left;
+}
+
+.img_display img {
+    max-width: 65vh;
+    display: block;
+}
+
+.flex_card_contener{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    width: 20%;
+    height: 100%;
+}
+
+.flex_card_contener span {
+    width: 80%;
 }
