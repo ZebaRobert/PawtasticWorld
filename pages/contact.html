@@ -23,8 +23,74 @@
                 </ul>
             </nav>
         </header>
-        <main>
-    
+        <main class="smaller_content">
+            <section>
+                <span></span>
+                <span></span>
+                <form action="#" method="POST" id="feedback_form">
+                    <p>
+                        We're so happy to have you here! We would love to hear what you think about our website. Whether you loved it or have some ideas for making it even more awesome, we want to know! Your thoughts are super important in helping us create an amazing place for you to learn about animals and their habits. So please, share your feedback, suggestions, or anything else that pops into your mind. Thank you for being a part of making our website the best it can be, just for you!
+                    </p>
+                    <label for="f_name">First Name:</label>
+                        <input type="text" name="fname" id="f_name" required>
+                    <label for="l_name">Last Name:</label>
+                        <input type="text" name="lname" id="l_name" required>
+                    <label for="email">Email Address:</label>
+                        <input type="email" name="user_email" id="email" required> 
+                    <br>
+                    <h1>How would you rate your time here?</h1>
+                    <br>
+                    <input type="radio" id="very-bad" name="rate" value="very-bad">
+                        <label for="very-bad">Super Bummer!</label>
+                    <input type="radio" id="bad" name="rate" value="bad">
+                        <label for="bad">Not So Great</label>
+                    <input type="radio" id="mediocre" name="rate" value="mediocre">
+                        <label for="mediocre">Just Okay</label>
+                    <input type="radio" id="positiv" name="rate" value="positiv">
+                        <label for="positiv">Really Cool</label>
+                    <input type="radio" id="very-positiv" name="rate" value="very-positiv">
+                        <label for="very-positiv">Totally Awesome!</label>
+                    <br>
+                    <h1>Tell us what is on your mind.(optional)</h1>
+                    <br>
+                    <label for="feedback">Feedback</label>
+                    <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+                    <input type="submit" value="Send!">
+                    <input type="reset" value="Reset">                   
+                </form>
+                <form action="#" method="POST">
+                    <h1>Is there an animal that you really like and it is not on our website?</h1>
+                    <p>
+                        Please tell us the animal you're interested in, and we'll make sure to include it just for you. Thanks a bunch for helping us out!
+                    </p>
+                    <label for="f_name">First Name:</label>
+                        <input type="text" name="fname" id="f_name" required>
+                    <label for="l_name">Last Name:</label>
+                        <input type="text" name="lname" id="l_name" required>
+                    <label for="email">Email Address:</label>
+                        <input type="email" name="user_email" id="email" required> 
+                    <br>
+                    <h2>Tell us about the animal.</h2>
+                    <label for="animal_name">Animal Name:</label>
+                    <input type="text" id="animal_name" name="animal:request" required>
+                    <label for="animal_location">Where does it come from?</label>
+                    <select name="region" id="animal_location">
+                        <option value="north_america">North America</option>
+                        <option value="south_america">South America</option>
+                        <option value="europe">Europe</option>
+                        <option value="asia">Asia</option>
+                        <option value="africa">Africa</option>
+                        <option value="australia">Australia</option>
+                        <option value="antartica">Antartica</option>
+                    </select>
+                    <br>
+                    <h2>Describe to us how the animal looks.(optional)</h2>
+                    <label for="animal_looks">Animal Description:</label>
+                    <textarea name="animal_description" id="animal_looks" cols="30" rows="10"></textarea>
+                    <input type="submit" value="Send!">
+                    <input type="reset" value="Reset">
+                </form>
+            </section>
         </main>
         <footer>
             <ul>
