@@ -365,7 +365,7 @@ footer li:hover{
     height: 450px;
     border: 2px solid black;
     border-radius: 30px;
-    transition: flex 2s ease;
+    transition: flex 1s linear;
 }
 
 .flex_item figure{
@@ -373,7 +373,7 @@ footer li:hover{
 }
 
 .bigger_item{
-    height: 500px;
+    height: 600px;
 }
 
 .flex_item figure img {
@@ -404,8 +404,8 @@ input[type="checkbox"]:checked + .flex_item {
     flex: 100%;
     height: min-content;
     margin-bottom: 10px;
-    z-index: 2;
-    transition: flex 2s ease;
+    z-index: 3;
+    transition: flex 1s linear;
 }
 
 input[type="checkbox"]:checked + .flex_item figure {
