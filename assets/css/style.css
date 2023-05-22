@@ -404,8 +404,8 @@ input[type="checkbox"]:checked + .flex_item {
     flex: 100%;
     height: min-content;
     margin-bottom: 10px;
-    z-index: 3;
     transition: flex 1s linear;
+    order: -1;
 }
 
 input[type="checkbox"]:checked + .flex_item figure {
