@@ -8,7 +8,7 @@
 
 header {
   height: 15vh;
-  background-color: #224221 ;
+  background-color: #224221;
 }
 
 #logo {
@@ -43,7 +43,7 @@ nav > ul li {
 }
 
 nav li:hover {
-  background-color: #008000 ;
+  background-color: #008000;
   color: #fff;
 }
 
@@ -52,7 +52,7 @@ nav li:active {
 }
 
 #active {
-  background-color: #006400 ;
+  background-color: #006400;
 }
 
 /* Body */
@@ -65,7 +65,7 @@ body {
 }
 
 .content_wrapper {
-  background: linear-gradient(to bottom, yellow , lightblue 10% );
+  background: linear-gradient(to bottom, yellow, #004daa 30%);
   min-height: 100%;
   position: relative;
 }
@@ -77,11 +77,10 @@ body {
   border-right: 10px solid #5a2a0f;
   background: linear-gradient(to bottom, #2b5329, #8b4513 10%, #5a2a0f 50%);
 }
-  
 
 /* Instructions/Explanations */
 
-.instructions{
+.instructions {
   text-align: center;
   font-size: large;
   width: 80%;
@@ -100,7 +99,7 @@ body {
   padding: 25px;
 }
 
-#disclaimer{
+#disclaimer {
   color: red;
   font-size: small;
   width: 40%;
@@ -128,7 +127,7 @@ body {
   color: brown;
 }
 
-#explanation span{
+#explanation span {
   flex: 1 1 30%;
   text-align: center;
   padding: 30px;
@@ -139,7 +138,7 @@ body {
   background-color: aquamarine;
 }
 
-#explanation h1{
+#explanation h1 {
   margin-bottom: 30px;
 }
 
@@ -296,15 +295,11 @@ body {
 
 .left h2 {
   text-align: center;
-  padding: 20px;
+  padding: 15px;
 }
 
 .left p {
-  padding: 10px 30px 30px 30px;
-}
-
-.left hr {
-  width: 50%;
+  padding: 0px 30px 30px 30px;
 }
 
 .separator {
@@ -322,15 +317,11 @@ body {
 
 .right h2 {
   text-align: center;
-  padding: 20px;
+  padding: 15px;
 }
 
 .right p {
-  padding: 10px 30px 40px 30px;
-}
-
-.right hr {
-  width: 50%;
+  padding: 0px 30px 40px 30px;
 }
 
 .center {
@@ -344,11 +335,11 @@ body {
 
 .center h2 {
   text-align: center;
-  padding: 20px;
+  padding: 15px;
 }
 
 .center p {
-  padding: 10px 30px 50px 30px;
+  padding: 0px 30px 50px 30px;
 }
 
 .center ul {
@@ -357,10 +348,6 @@ body {
 
 .center li {
   padding: 5px 15px;
-}
-
-.center hr {
-  width: 50%;
 }
 
 /* Mini gallery */
@@ -380,6 +367,7 @@ body {
 
 .img_selection {
   width: 80%;
+  padding-top: 20px;
 }
 
 .img_selection a {
@@ -440,7 +428,6 @@ footer i:hover {
   transform: translateY(5px);
 }
 
-
 /* Flex grid */
 
 .flex_contener {
@@ -459,7 +446,7 @@ footer i:hover {
 .flex_item {
   flex: 0 1 25%;
   margin: 8% 3%;
-  background-color: rgb(103, 20, 20) ;
+  background-color: rgb(103, 20, 20);
   height: 450px;
   border: 2px solid black;
   border-radius: 30px;
@@ -548,13 +535,13 @@ input[type="checkbox"]:checked + .flex_item article {
   border-bottom: 2px solid black;
 }
 
-.card_right h1{
+.card_right h1 {
   text-align: center;
   padding: 10px;
   font-size: xx-large;
 }
 
-.card_right h2{
+.card_right h2 {
   margin: 15px;
 }
 
@@ -577,7 +564,7 @@ input[type="checkbox"]:checked + .flex_item article {
   border-radius: 10px;
 }
 
-.animal_info{
+.animal_info {
   padding: 15px 0;
 }
 .animal_info h2 {
@@ -594,31 +581,28 @@ input[type="checkbox"]:checked + .flex_item article {
 
 #form {
   width: 90%;
-  border: 2px solid lightseagreen;
   position: relative;
 }
 
 .form_selector {
   margin: 20px 0;
-  border: 4px solid black;
+  border: 4px solid #5a2a0f;
   padding: 20px;
   display: inline-block;
-  background-color: lightsteelblue;
+  background-color: #003300;
   color: black;
 }
 
 .form_selector:hover {
-  background-color: darkslateblue;
+  background-color: #008000;
   color: lightsteelblue;
 }
 
 #feedback_form {
-  background: url() center/cover no-repeat;
   display: none;
 }
 
 #new_animal_form {
-  background: url() center/cover no-repeat;
   display: none;
   position: relative;
   top: 0;
@@ -679,7 +663,7 @@ form input[type="reset"] {
   text-align: center;
   font-size: larger;
   margin: 20px 10px;
-  background-color: aquamarine;
+  background-color: #003300;
   color: black;
   border: 2px solid black;
   border-radius: 5px;
@@ -687,19 +671,19 @@ form input[type="reset"] {
 
 form input[type="submit"]:hover,
 form input[type="reset"]:hover {
-  background-color: aqua;
+  background-color: #008000;
 }
 
 form input[type="submit"]:active,
 form input[type="reset"]:active {
-  background-color: darkblue;
+  background-color: #005c00;
   color: white;
 }
 
 form select {
   margin: 15px 30px;
   font-size: large;
-  background-color: aquamarine;
+  background-color: #003300;
   color: black;
   border: 2px solid black;
   border-radius: 5px;
@@ -721,17 +705,20 @@ form select {
 
 #about_us {
   width: 90%;
+  border-left: 10px solid #5a2a0f;
+  border-right: 10px solid #5a2a0f;
+  background: linear-gradient(to bottom, #2b5329, #8b4513 10%, #5a2a0f 50%);
 }
 
 #about_us div {
   height: 40vh;
   position: relative;
-  border: 4px solid red;
 }
 
 #about_us img {
   height: 100%;
-  padding: 20px 0 20px 20px;
+  margin: 20px 0 20px 20px;
+  border: 3px solid black;
 }
 
 .text_right * {
@@ -743,6 +730,7 @@ form select {
   position: absolute;
   top: 20%;
   right: 25%;
+  font-size: xx-large;
 }
 
 .text_right p {
@@ -750,6 +738,7 @@ form select {
   top: 50%;
   right: 10%;
   width: 33%;
+  font-size:larger;
 }
 
 #text_left * {
@@ -761,6 +750,7 @@ form select {
   position: absolute;
   top: 20%;
   left: 25%;
+  font-size: xx-large;
 }
 
 #text_left p {
@@ -768,11 +758,13 @@ form select {
   top: 50%;
   left: 10%;
   width: 33%;
+  font-size: larger;
 }
 
 #text_left img {
   float: right;
-  padding: 20px 20px 20px 0;
+  margin: 20px 20px 20px 0;
+  border: 2px solid black;
 }
 
 #last_sec {
@@ -781,7 +773,8 @@ form select {
 
 #last_sec p {
   margin-top: 150px;
-  width: 40%;
+  width: 60%;
+  font-size: xx-large;
 }
 
 /* Comming soon elements */
