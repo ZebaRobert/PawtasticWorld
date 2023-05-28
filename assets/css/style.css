@@ -165,7 +165,7 @@ h6 {
   color: black;
 }
 
-#explanation span {
+#explanation div {
   flex: 1 1 30%;
   text-align: center;
   padding: 30px;
