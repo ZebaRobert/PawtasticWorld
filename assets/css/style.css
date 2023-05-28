@@ -1,3 +1,6 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&family=Spicy+Rice&display=swap');
+
 * {
   padding: 0 auto;
   margin: 0 auto;
@@ -64,6 +67,30 @@ body {
   height: 100%;
 }
 
+p , li{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: medium;
+  color:aliceblue ;
+}
+
+h1 {
+  font-family: "Spicy Rice", cursive;
+  font-size: xx-large;
+  color:aliceblue ;
+}
+
+h2 {
+  font-family: "Spicy Rice", cursive;
+  font-size: x-large;
+  color:aliceblue ;
+}
+
+h3,h4,h5,h6 {
+  font-family: "Spicy Rice", cursive;
+  font-size: large;
+  color:aliceblue ;
+}
+
 .content_wrapper {
   background: linear-gradient(to bottom, yellow, #004daa 30%);
   min-height: 100%;
@@ -75,7 +102,7 @@ body {
   min-height: 100vh;
   border-left: 10px solid #5a2a0f;
   border-right: 10px solid #5a2a0f;
-  background: linear-gradient(to bottom, #2b5329, #8b4513 10%, #5a2a0f 50%);
+  background: linear-gradient(to bottom, #003300, #8b4513 10%, #5a2a0f 50%);
 }
 
 /* Instructions/Explanations */
@@ -95,20 +122,30 @@ body {
 
 #left-about {
   flex-basis: 60%;
-  font-size: x-large;
   padding: 25px;
 }
 
+#left-about > p {
+  font-size: xx-large;
+}
+
 #disclaimer {
-  color: red;
-  font-size: small;
   width: 40%;
   padding: 20px;
   border: 3px solid darkred;
   border-radius: 30px;
-  background-color: bisque;
-  flex-basis: 30%;
+  background-color: aliceblue;
+  flex-basis: 30%;  
+}
+
+#disclaimer > p {
+  color: red;
+  font-size: small;
   line-height: normal;
+}
+
+#disclaimer > h1 {
+  color: darkred;
 }
 
 .instructions > p {
@@ -149,7 +186,7 @@ body {
   width: 80%;
   border-left: 10px solid #5a2a0f;
   border-right: 10px solid #5a2a0f;
-  background: linear-gradient(to bottom, #2b5329, #8b4513 10%);
+  background: linear-gradient(to bottom, #003300, #8b4513 10%);
   padding: 20px 0;
 }
 
@@ -474,10 +511,11 @@ footer i:hover {
 }
 
 .flex_item figcaption {
-  color: black;
+  color: aliceblue;
   font-size: xx-large;
   text-align: center;
   padding-top: 50px;
+  font-family: "Spicy Rice", cursive;
 }
 
 /* Animal page */
@@ -545,6 +583,7 @@ input[type="checkbox"]:checked + .flex_item article {
 }
 
 .card_right h3 {
+  font-family: 'Noto Sans', sans-serif;
   margin: 0 20px;
 }
 
@@ -627,6 +666,7 @@ form label {
   display: block;
   margin-left: 35px;
   margin-bottom: 10px;
+  color:aliceblue ;
 }
 
 form h1,
@@ -634,11 +674,19 @@ form h2 {
   margin: 10px 0 15px 30px;
 }
 
+form input:focus{
+  outline: 3px solid #211714;
+  border: none;
+}
+
 form input[type="text"],
 form input[type="email"] {
   margin-left: 40px;
   width: 15%;
   margin-bottom: 10px;
+  border: 2px solid #211714;
+  background-color: #006400;
+  color:aliceblue ;
 }
 
 form input[type="radio"] {
@@ -648,9 +696,18 @@ form input[type="radio"] {
 }
 
 form textarea {
+  font-size: x-large;
+  background-color: #006400;
+  color: aliceblue;
+  border: 2px solid #211714;
   width: 40%;
   height: 300px;
   margin-left: 30px;
+}
+
+form textarea:focus{
+  outline: 3px solid #211714;
+  border: none;
 }
 
 form input[type="submit"],
@@ -659,7 +716,7 @@ form input[type="reset"] {
   height: 50px;
   text-align: center;
   font-size: larger;
-  margin: 20px 10px;
+  margin: 20px 10px 20px 25px;
   background-color: #003300;
   color: black;
   border: 2px solid black;
@@ -680,7 +737,7 @@ form input[type="reset"]:active {
 form select {
   margin: 15px 30px;
   font-size: large;
-  background-color: #003300;
+  background-color: #005c00;
   color: black;
   border: 2px solid black;
   border-radius: 5px;
