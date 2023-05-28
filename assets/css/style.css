@@ -16,7 +16,7 @@ header {
 }
 
 #logo {
-  margin-left:50px;
+  margin-left: 50px;
   height: 100%;
   float: left;
 }
@@ -859,4 +859,3 @@ form select {
 .unavailable:hover {
   cursor: not-allowed;
 }
-
