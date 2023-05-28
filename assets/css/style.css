@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&family=Spicy+Rice&display=swap");
 
 * {
-  padding: 0 auto;
+  padding: 0;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -489,7 +489,6 @@ footer i:hover {
   flex: 0 1 25%;
   margin: 8% 3%;
   background-color: #2b5329;
-  height: 450px;
   border: 2px solid black;
   border-radius: 30px;
   transition: flex 1s linear;
@@ -504,10 +503,6 @@ footer i:hover {
   transition: opacity 1s ease 0.5s;
 }
 
-.bigger_item {
-  height: 600px;
-}
-
 .flex_item figure img {
   max-width: 100%;
   max-height: 70%;
@@ -519,7 +514,7 @@ footer i:hover {
   color: aliceblue;
   font-size: xx-large;
   text-align: center;
-  padding-top: 50px;
+  padding: 30px;
   font-family: "Spicy Rice", cursive;
 }
 
@@ -868,3 +863,4 @@ form select {
 .unavailable:hover {
   cursor: not-allowed;
 }
+
