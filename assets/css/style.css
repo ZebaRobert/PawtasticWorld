@@ -788,7 +788,6 @@ form select {
 }
 
 #about_us div {
-  height: 40vh;
   position: relative;
 }
 
@@ -796,6 +795,10 @@ form select {
   height: 100%;
   margin: 20px 0 20px 20px;
   border: 3px solid black;
+}
+
+.text_right {
+  height: 40vh;
 }
 
 .text_right * {
@@ -816,6 +819,10 @@ form select {
   right: 10%;
   width: 33%;
   font-size: larger;
+}
+
+#text_left {
+  height: 40vh;
 }
 
 #text_left * {
@@ -850,9 +857,18 @@ form select {
 
 #last_sec p {
   margin-top: 150px;
+  margin-bottom: 50px;
   width: 60%;
   font-size: xx-large;
 }
+
+iframe {
+  width: 80%;
+  height: 70vh;
+  border: 2px solid #211714;
+  margin: 15px;
+}
+
 
 /* Comming soon elements */
 
