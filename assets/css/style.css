@@ -392,15 +392,21 @@ h6 {
 
 .mini_gallery {
   width: 80%;
-  height: 80vh;
+  height: 50vh;
   overflow: hidden;
   border: 4px solid black;
   border-radius: 10px;
+  position: relative;
 }
 
 .mini_gallery img {
   max-width: 100%;
-  display: block;
+  position: absolute;
+  top: 0; 
+}
+
+.mini_gallery img:target {
+  z-index: 6;
 }
 
 .img_selection {
@@ -522,6 +528,7 @@ footer i:hover {
 /* Breadcrumbs Section */
 
 .breadcrumbs {
+  z-index: 3;
   position: sticky;
   top: 0;
   right: 0;
@@ -611,6 +618,7 @@ input[type="checkbox"]:checked + .flex_item article {
 }
 
 .card_gallery {
+  overflow: hidden;
   width: 100%;
   height: 40vh;
   border-bottom: 2px solid black;
@@ -875,3 +883,136 @@ iframe {
 .unavailable:hover {
   cursor: not-allowed;
 }
+
+ /* Media queries*/
+
+@media screen and (max-width: 1450px) {
+
+  /* General */
+
+  h1 {
+    font-size:x-large ;
+  }
+
+  h2,h3{
+    font-size:larger ;
+  }
+
+  p {
+    font-size:large ;
+  }
+
+  /* Index */
+
+  #welcome_img, #welcome_img img {
+    width: 100%;
+    left: 0;
+  }
+
+  .right {
+    padding: 30px;
+  }
+
+  .center {
+    border: 3px solid #301d17;
+  }
+
+  .mini_gallery{
+    height: 400px;
+  }
+
+  .img_selection span {
+    height: 75px;
+  }
+
+  /* About us */
+
+  #about_us p{
+    font-size: medium;
+    width: 40%;
+  }
+
+  #about_us img{
+    width: 50%;
+  }
+
+  #about_us div {
+    padding: 50px 0;
+  }
+
+  #text_left h1,#text_left p {
+    left: 20px;
+    padding: 10px;
+  }
+
+  .text_right h1,.text_right p{
+    right: 20px;
+  }
+
+  #last_sec *{
+    margin-top: 15px;
+  }
+
+  #last_sec p{
+    margin-top: 10px;
+    width: 80%;
+  }
+
+  /* Contact us */
+
+  .instructions p {
+    font-size: medium;
+  }
+
+  #form p {
+    font-size: medium;
+    width: 100%;
+  }
+
+  #form input[type="text"],
+  #form input[type="email"]{
+    width: 40%;  
+    height: 30px;
+    font-size: large;
+  }
+
+  #form textarea {
+    width: 80%;
+    font-size: large;
+  }
+
+  #bigger_label{
+    font-size: larger;
+    font-family: "Spyci Rise", cursive;
+  }
+
+  form select{
+    width: 30%;
+  }
+
+  form input[type="submit"],
+  form input[type="reset"] {
+    width: 30%;
+  }
+
+  /* Continents */
+
+  .instructions #left-about p {
+    font-size: medium;
+  }
+
+  .instructions #disclaimer > p {
+    font-size: 0.5em;
+  }
+
+  .instructions #disclaimer > h1 {
+    font-size: 1em;
+  }
+
+  /* Category page */
+
+  #explanation p {
+    font-size: 0.8em;
+  }
+
+  } 
