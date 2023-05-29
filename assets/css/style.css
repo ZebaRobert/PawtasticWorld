@@ -435,7 +435,7 @@ h6 {
 }
 
 #img_link_box1 {
-  background: url(../images/weekly/Buck.jpg) center/cover no-repeat;
+  background: url(../images/weekly/abuck.jpg) center/cover no-repeat;
 }
 #img_link_box2 {
   background: url(../images/weekly/elephant.jpg) center/cover no-repeat;
@@ -447,7 +447,7 @@ h6 {
   background: url(../images/weekly/leopard.jpg) center/cover no-repeat;
 }
 #img_link_box5 {
-  background: url(../images/weekly/Monkey.jpg) center/cover no-repeat;
+  background: url(../images/weekly/amonkey.jpg) center/cover no-repeat;
 }
 
 .img_selection span:hover {
@@ -1192,13 +1192,14 @@ iframe {
   /* Header */
 
   nav {
-    width: 60%;
+    width: 65%;
     align-items: flex-start;
   }
 
   nav span {
-    flex-basis: 10% ;
     font-size: small;
+    margin: 3px 0 0 0;
+    padding: 10px;
   }
 
   /* Body */
