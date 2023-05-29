@@ -402,7 +402,7 @@ h6 {
 .mini_gallery img {
   max-width: 100%;
   position: absolute;
-  top: 0; 
+  top: 0;
 }
 
 .mini_gallery img:target {
@@ -877,34 +877,34 @@ iframe {
   margin: 15px;
 }
 
-
 /* Comming soon elements */
 
 .unavailable:hover {
   cursor: not-allowed;
 }
 
- /* Media queries*/
+/* Media queries*/
 
 @media screen and (max-width: 1450px) {
-
   /* General */
 
   h1 {
-    font-size:x-large ;
+    font-size: x-large;
   }
 
-  h2,h3{
-    font-size:larger ;
+  h2,
+  h3 {
+    font-size: larger;
   }
 
   p {
-    font-size:large ;
+    font-size: large;
   }
 
   /* Index */
 
-  #welcome_img, #welcome_img img {
+  #welcome_img,
+  #welcome_img img {
     width: 100%;
     left: 0;
   }
@@ -917,7 +917,7 @@ iframe {
     border: 3px solid #301d17;
   }
 
-  .mini_gallery{
+  .mini_gallery {
     height: 400px;
   }
 
@@ -927,12 +927,12 @@ iframe {
 
   /* About us */
 
-  #about_us p{
+  #about_us p {
     font-size: medium;
     width: 40%;
   }
 
-  #about_us img{
+  #about_us img {
     width: 50%;
   }
 
@@ -940,20 +940,22 @@ iframe {
     padding: 50px 0;
   }
 
-  #text_left h1,#text_left p {
+  #text_left h1,
+  #text_left p {
     left: 20px;
     padding: 10px;
   }
 
-  .text_right h1,.text_right p{
+  .text_right h1,
+  .text_right p {
     right: 20px;
   }
 
-  #last_sec *{
+  #last_sec * {
     margin-top: 15px;
   }
 
-  #last_sec p{
+  #last_sec p {
     margin-top: 10px;
     width: 80%;
   }
@@ -970,8 +972,8 @@ iframe {
   }
 
   #form input[type="text"],
-  #form input[type="email"]{
-    width: 40%;  
+  #form input[type="email"] {
+    width: 40%;
     height: 30px;
     font-size: large;
   }
@@ -981,12 +983,12 @@ iframe {
     font-size: large;
   }
 
-  #bigger_label{
+  #bigger_label {
     font-size: larger;
     font-family: "Spyci Rise", cursive;
   }
 
-  form select{
+  form select {
     width: 30%;
   }
 
@@ -1014,5 +1016,79 @@ iframe {
   #explanation p {
     font-size: 0.8em;
   }
+}
 
-  } 
+@media screen and (max-width: 780px) {
+  /* Header */
+
+  #logo {
+    margin-left: 5px;
+  }
+
+  /* Body */
+
+  /* Index */
+
+  #welcome_sec {
+    width: 100%;
+    border: none;
+  }
+
+  #photo_sec {
+    width: 100%;
+    border: none;
+  }
+
+  .left {
+    width: 70%;
+  }
+
+  .right {
+    width: 70%;
+    left: 25%;
+  }
+
+  .center {
+    width: 60%;
+  }
+
+  /* General */
+
+  .smaller_content {
+    width: 100%;
+    border: none;
+  }
+
+  /* about us */
+
+  #about_us {
+    width: 100%;
+    border: none;
+  }
+
+  iframe {
+    width: 100%;
+    margin: 0;
+  }
+
+  /* Animal page */
+
+  .flex_item {
+    flex: 0 1 40%;
+    height: 370px;
+  }
+
+  .flex_item figcaption {
+    padding-top: 5px;
+  }
+
+  /* Continetns page */
+
+  #disclaimer {
+    flex-basis: 80%;
+  }
+
+  #left-about {
+    flex-basis: 100%;
+  }
+}
