@@ -1074,6 +1074,21 @@ iframe {
 
   /* Animal page */
 
+  .breadcrumbs {
+    width: 100%;
+    margin: 0;
+  }
+
+  .breadcrumbs h1,.breadcrumbs h2 {
+    font-size: large;
+    display: inline-block;
+    padding: 5px;
+  }
+
+  .breadcrumbs h2 {
+    transform: rotate(-90deg);
+  }
+
   .flex_item {
     flex: 0 1 40%;
     height: 370px;
@@ -1185,29 +1200,27 @@ iframe {
 
   /* Animal Card */
 
+  .card_gallery img {
+    width: 98%;
+  }
+
   .card_right {
     float: left;
     width: 100%;
+    border-radius: 30px;
   }
 
   .card_left {
     width: 100%;
+    border-radius: 30px;
   }
 
   input[type="checkbox"]:checked + .flex_item {
     flex-basis: 70%;
     text-align: center;
   }
-  
-  .animal_info p{
-    padding: 0 100px;
-  }
 
   .card_gallery {
     border: none;
-  }
-
-  .card_right h3 {
-    padding: 0 100px;
   }
 }
