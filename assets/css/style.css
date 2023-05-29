@@ -28,6 +28,7 @@ nav {
   height: 100%;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 nav span {
@@ -1090,5 +1091,123 @@ iframe {
 
   #left-about {
     flex-basis: 100%;
+  }
+}
+
+@media screen and (max-width: 400px){
+  /* Header */
+
+  nav {
+    width: 60%;
+    align-items: flex-start;
+  }
+
+  nav span {
+    flex-basis: 10% ;
+    font-size: small;
+  }
+
+  /* Body */
+  /* Index */
+
+  #welcome_img {
+    width: 75%;
+    height: 350px;
+  }
+
+  #welcome_img img{
+    height: 300px;
+  }
+
+  .mini_gallery {
+    height: 200px;
+  }
+
+  .img_selection span {
+    flex: 0 1 40%;
+  }
+
+  /* General */
+
+  p , li{
+    font-size: 0.8em;
+  }
+
+  /* About us */
+
+  #about_us div {
+    height: auto;
+    padding: 10px;
+  }
+
+  #about_us img {
+    width: 80%;
+  }
+
+  #about_us .text_right p,#about_us .text_right h1{
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 80%;
+  }
+
+  #about_us #text_left p,#about_us #text_left h1{
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 80%;
+  }
+
+  iframe {
+    height: 300px;
+  }
+
+  /* Contact */
+
+  .instructions {
+    width: 100%;
+  }
+
+  .form_selector {
+    width: 50%;
+    height: 100px;
+  }
+
+  form select {
+    width: 50%;
+  }
+
+  /* Flex items */
+
+  .flex_item {
+    flex-basis: 80%;
+  }
+
+  /* Animal Card */
+
+  .card_right {
+    float: left;
+    width: 100%;
+  }
+
+  .card_left {
+    width: 100%;
+  }
+
+  input[type="checkbox"]:checked + .flex_item {
+    flex-basis: 70%;
+    text-align: center;
+  }
+  
+  .animal_info p{
+    padding: 0 100px;
+  }
+
+  .card_gallery {
+    border: none;
+  }
+
+  .card_right h3 {
+    padding: 0 100px;
   }
 }
