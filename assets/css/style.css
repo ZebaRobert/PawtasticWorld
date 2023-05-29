@@ -1212,6 +1212,8 @@ iframe {
 
   #welcome_img img{
     height: 300px;
+    width: 100%;
+    left: 0;
   }
 
   .smaller_flex_item {
@@ -1284,6 +1286,11 @@ iframe {
 
   .flex_item {
     flex-basis: 80%;
+    height: 425px;
+  }
+
+  .instructions #explanation div {
+    flex-basis: 100% ;
   }
 
   /* Animal Card */
