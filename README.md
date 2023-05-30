@@ -247,41 +247,43 @@ The W3C validator was used to validate the HTML and CSS files for the project.
 
 ### Final Validation:
 
-[Index.html]()
+[Index.html](./assets/images/screenshots/final-index.png)
 
-[About.html]()
+[About.html](./assets/images/screenshots/final-about.png)
 
-[Contact.html]()
+[Contact.html](./assets/images/screenshots/final-contact.png)
 
-[Continents.html]()
+[Continents.html](./assets/images/screenshots/final-continents.png)
 
-[CategoriesNA.html]()
+[CategoriesNA.html](./assets/images/screenshots/final-category.png)
 
-[AerialNA.html]()
+[AerialNA.html](./assets/images/screenshots/final-aerial.png)
 
-[TerrestrialNA.html]()
+[TerrestrialNA.html](./assets/images/screenshots/final-terrestrial.png)
 
-[AquaticNA.html]()
+[AquaticNA.html](./assets/images/screenshots/final-aquatic.png)
 
-[Style.css]()
+[Style.css](./assets/images/screenshots/final-style.jpg)
+
+Regarding the three animal pages that don't pass the validation test, I made several attempts to fix the issue but couldn't find a solution. The problem lies with the expanding card feature and its HTML structure, which causes the validation to fail. However, I put in a lot of effort to develop this feature, and I would like to retain it.
 
 ## Lighthouse test: 
 
-[Index.html](./assets/images/screenshots/index_lighthouse.png)
+[Index.html](./assets/images/screenshots/index-lighthouse.jpeg)
 
-[About.html](./assets/images/screenshots/about_lighthouse.png)
+[About.html](./assets/images/screenshots/about-lighthouse.png)
 
-[Contact.html](./assets/images/screenshots/contact_lighthouse.png)
+[Contact.html](./assets/images/screenshots/contact-lighthouse.png)
 
-[Continents.html](./assets/images/screenshots/continents_lighthouse.png)
+[Continents.html](./assets/images/screenshots/continents-lighthouse.png)
 
-[CategoriesNA.html](./assets/images/screenshots/category_lighthouse.png)
+[CategoriesNA.html](./assets/images/screenshots/category-lighthouse.png)
 
-[AerialNA.html](./assets/images/screenshots/aerial_lighthouse.png)
+[AerialNA.html](./assets/images/screenshots/aerial-lighthouse.png)
 
-[TerrestrialNA.html](./assets/images/screenshots/terrestrial_lighthouse.png)
+[TerrestrialNA.html](./assets/images/screenshots/terrestrial-lighthouse.png)
 
-[AquaticNA.html](./assets/images/screenshots/aquatic_lighthouse.png)
+[AquaticNA.html](./assets/images/screenshots/aquatic-lighthouse.png)
  
   ***
 
