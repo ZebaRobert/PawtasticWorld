@@ -52,23 +52,23 @@ Information about animals all around the world
 
 ## User Stories
 
-	### Client Goals
+### Client Goals
 
-	-To be able to learn more about their favorite animals
-	-To have easy access to that information
-	-To be involved in evolution of the website through user-friendly forms
-	-To be able to share their photos of wildlife trough weekly photo rotation
+-To be able to learn more about their favorite animals
+-To have easy access to that information
+-To be involved in evolution of the website through user-friendly forms
+-To be able to share their photos of wildlife trough weekly photo rotation
 
-	### First Time Visitor Goals 
+### First Time Visitor Goals 
 
-	-I want to learn more about animals I already know about, as well as the ones that I have never seen before.
-	-I want to be able to navigate the site easily to find information.
+-I want to learn more about animals I already know about, as well as the ones that I have never seen before.
+-I want to be able to navigate the site easily to find information.
  	
-	### Returning Visitor Goals
+### Returning Visitor Goals
 
-	-I want to expand my knowledge on wildlife even more
-	-I want to see more content added, and be a part of it through forms
-	-I want to see beautiful pictures of wild animals other users or myself submitted on social media
+-I want to expand my knowledge on wildlife even more
+-I want to see more content added, and be a part of it through forms
+-I want to see beautiful pictures of wild animals other users or myself submitted on social media
 
  ***
 
@@ -84,9 +84,9 @@ Personally, I think I was not able to capture the idea that I had in mind and pu
 
 Google Fonts was used for the following fonts:
 
-	[Spicy Rice](https://fonts.google.com/specimen/Spicy+Rice?query=spicy) is used for headings on the site.
+[Spicy Rice](https://fonts.google.com/specimen/Spicy+Rice?query=spicy) is used for headings on the site.
 
-	[Noto Sans](https://fonts.google.com/noto/specimen/Noto+Sans#styles) is used for the body text on the site.
+[Noto Sans](https://fonts.google.com/noto/specimen/Noto+Sans#styles) is used for the body text on the site.
 
 # Imagery
 
@@ -287,7 +287,7 @@ The W3C validator was used to validate the HTML and CSS files for the project.
 
 # Bugs
 
- ## Solved bugs:
+## Solved bugs:
 
 On animals page, when the middle card or the last card would be expanded, the first card would get pushed to upper row, and it would expand to 100% width of the parent. 
 This resulted in a bad design and overlapping of the cards. While I was looking through the style.css, I saw that my flex property for the flex_item class was defined as flex:1 1 30%; and it was causing the card to expand because it allowed it to grow when it had space. By changing the property to flex:0 1 30%; I was able to fix the bug.
@@ -304,26 +304,26 @@ When the animal card expands, the webpage will always rubber band back to the to
 
 Content for this project was written by Robert Zeba, and the animal information was taken from these websites:
 
-https://www.nationalgeographic.com/animals/ 
-https://en.wikipedia.org
-https://animaldiversity.org
+* https://www.nationalgeographic.com/animals/ 
+* https://en.wikipedia.org
+* https://animaldiversity.org
 
 ## Media
 
 All images were taken from: 
-	https://unsplash.com/
-	https://pixabay.com/
+* https://unsplash.com/
+* https://pixabay.com/
     
 Embedded video authors:
-    https://www.youtube.com/@crashcourse
+* https://www.youtube.com/@crashcourse
 
 ## Acknowledgments
 
 I would like to acknowledge the following people who helped me along the way in completing this project:
 
-    My family & friends for their feedback on the project.
-    My Code Institute Mentor Graeme Taylor
-	[Kera Cudmore](https://github.com/kera-cudmore/readme-examples/blob/main/README.md#how-to-write-your-readme) who's ReedMe.md I have used as a template for my own.
+My family & friends for their feedback on the project.
+My Code Institute Mentor Graeme Taylor
+[Kera Cudmore](https://github.com/kera-cudmore/readme-examples/blob/main/README.md#how-to-write-your-readme) who's ReedMe.md I have used as a template for my own.
     
 
 

@@ -532,7 +532,7 @@ footer i:hover {
 
 /* Index flex grid */
 
-.smaller_flex_item figure h1 {
+.smaller_flex_item figure .soon {
   text-align: center;
   color: darkred;
   font-size: xx-large;
