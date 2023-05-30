@@ -74,7 +74,7 @@ Information about animals all around the world
 
 # Colour Scheme
 
-![Color palette image](./assets/images/screenshots/color-palette.png)
+![Color palette image](./docs/screenshots/color-palette.png)
 	
 This website uses a palette of colors that are often seen on child drawings off a tree.
 The goal was to use the wide variety of colors to appeal to a younger audience, but at the same time not to be too much of an eye sour for everyone else.
@@ -191,7 +191,7 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 
 Gimp to rescale some of the images and to make a logo[](https://www.gimp.org/)
 
-[Am I Responsive?](https://ui.dev/amiresponsive) [To show the website image on a range of devices.](./assets/images/screenshots/responsive.jpg)
+[Am I Responsive?](https://ui.dev/amiresponsive) [To show the website image on a range of devices.](./docs/screenshots/responsive.jpg)
 
 Prettier extension for VS-Code to format the code
 
@@ -217,9 +217,9 @@ Testing was present troughout the whole project.I used Mozila developer tools to
 
 The following issues were raised during my mid project meeting with my mentor:
 
-	No information on how to use the features on the web-site was provided on any of the pages.
-	There was a lack of comments throughout my html files
-	The submit button was not functional because the form action attribute was not set
+* No information on how to use the features on the web-site was provided on any of the pages.
+* There was a lack of comments throughout my html files
+* The submit button was not functional because the form action attribute was not set
 
 ## W3C validator
 
@@ -227,63 +227,63 @@ The W3C validator was used to validate the HTML and CSS files for the project.
 	
 ### Initial validation:
 
-[Index.html](./assets/images/screenshots/initial_index_validator.png)
+[Index.html](./docs/screenshots/initial_index_validator.png)
 
-[About.html](./assets/images/screenshots/initial_about_validator.png)
+[About.html](./docs/screenshots/initial_about_validator.png)
 
-[Contact.html](./assets/images/screenshots/initial_contact_validator.png)
+[Contact.html](./docs/screenshots/initial_contact_validator.png)
 
-[Continents.html](./assets/images/screenshots/initial_continents_validator.png)
+[Continents.html](./docs/screenshots/initial_continents_validator.png)
 
-[CategoriesNA.html](./assets/images/screenshots/initial_category_validator.png)
+[CategoriesNA.html](./docs/screenshots/initial_category_validator.png)
 
-[AerialNA.html](./assets/images/screenshots/initial_aerial_validator.png)
+[AerialNA.html](./docs/screenshots/initial_aerial_validator.png)
 
-[TerrestrialNA.html](./assets/images/screenshots/initial_terrestrial_validator.png)
+[TerrestrialNA.html](./docs/screenshots/initial_terrestrial_validator.png)
 
-[AquaticNA.html](./assets/images/screenshots/initial_aquatic_validator.png)
+[AquaticNA.html](./docs/screenshots/initial_aquatic_validator.png)
 
-[Style.css](./assets/images/screenshots/inital_style.css_validator.png)
+[Style.css](./docs/screenshots/inital_style.css_validator.png)
 
 ### Final Validation:
 
-[Index.html](./assets/images/screenshots/final-index.png)
+[Index.html](./docs/screenshots/final-index.png)
 
-[About.html](./assets/images/screenshots/final-about.png)
+[About.html](./docs/screenshots/final-about.png)
 
-[Contact.html](./assets/images/screenshots/final-contact.png)
+[Contact.html](./docs/screenshots/final-contact.png)
 
-[Continents.html](./assets/images/screenshots/final-continents.png)
+[Continents.html](./docs/screenshots/final-continents.png)
 
-[CategoriesNA.html](./assets/images/screenshots/final-category.png)
+[CategoriesNA.html](./docs/screenshots/final-category.png)
 
-[AerialNA.html](./assets/images/screenshots/final-aerial.png)
+[AerialNA.html](./docs/screenshots/final-aerial.png)
 
-[TerrestrialNA.html](./assets/images/screenshots/final-terrestrial.png)
+[TerrestrialNA.html](./docs/screenshots/final-terrestrial.png)
 
-[AquaticNA.html](./assets/images/screenshots/final-aquatic.png)
+[AquaticNA.html](./docs/screenshots/final-aquatic.png)
 
-[Style.css](./assets/images/screenshots/final-style.jpg)
+[Style.css](./docs/screenshots/final-style.jpg)
 
 Regarding the three animal pages that don't pass the validation test, I made several attempts to fix the issue but couldn't find a solution. The problem lies with the expanding card feature and its HTML structure, which causes the validation to fail. However, I put in a lot of effort to develop this feature, and I would like to retain it.
 
 ## Lighthouse test: 
 
-[Index.html](./assets/images/screenshots/index-lighthouse.jpeg)
+[Index.html](./docs/screenshots/index-lighthouse.jpeg)
 
-[About.html](./assets/images/screenshots/about-lighthouse.png)
+[About.html](./docs/screenshots/about-lighthouse.png)
 
-[Contact.html](./assets/images/screenshots/contact-lighthouse.png)
+[Contact.html](./docs/screenshots/contact-lighthouse.png)
 
-[Continents.html](./assets/images/screenshots/continents-lighthouse.png)
+[Continents.html](./docs/screenshots/continents-lighthouse.png)
 
-[CategoriesNA.html](./assets/images/screenshots/category-lighthouse.png)
+[CategoriesNA.html](./docs/screenshots/category-lighthouse.png)
 
-[AerialNA.html](./assets/images/screenshots/aerial-lighthouse.png)
+[AerialNA.html](./docs/screenshots/aerial-lighthouse.png)
 
-[TerrestrialNA.html](./assets/images/screenshots/terrestrial-lighthouse.png)
+[TerrestrialNA.html](./docs/screenshots/terrestrial-lighthouse.png)
 
-[AquaticNA.html](./assets/images/screenshots/aquatic-lighthouse.png)
+[AquaticNA.html](./docs/screenshots/aquatic-lighthouse.png)
  
   ***
 
