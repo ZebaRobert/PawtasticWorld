@@ -321,9 +321,9 @@ Embedded video authors:
 
 I would like to acknowledge the following people who helped me along the way in completing this project:
 
-My family & friends for their feedback on the project.
-My Code Institute Mentor Graeme Taylor
-[Kera Cudmore](https://github.com/kera-cudmore/readme-examples/blob/main/README.md#how-to-write-your-readme) who's ReedMe.md I have used as a template for my own.
+* My family & friends for their feedback on the project.
+* My Code Institute Mentor Graeme Taylor
+* [Kera Cudmore](https://github.com/kera-cudmore/readme-examples/blob/main/README.md#how-to-write-your-readme) who's ReedMe.md I have used as a template for my own.
     
 
 

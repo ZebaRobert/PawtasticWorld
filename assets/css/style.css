@@ -532,11 +532,12 @@ footer i:hover {
 
 /* Index flex grid */
 
-.smaller_flex_item figure .soon {
+.smaller_flex_item  .soon {
+  cursor: not-allowed;
   text-align: center;
   color: darkred;
   font-size: xx-large;
-  margin-bottom: 30px;
+  margin: 5px;
 }
 
 .index_flex_contener {
