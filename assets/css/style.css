@@ -970,7 +970,7 @@ iframe {
 
   /* Index */
 
-  #welcome_img{
+  #welcome_img {
     width: 100%;
     left: 0;
   }
@@ -982,10 +982,10 @@ iframe {
 
   .index_flex_contener {
     display: flex;
-    background-color:#5a2a0f ;
+    background-color: #5a2a0f;
   }
 
-  #world_map{
+  #world_map {
     display: none;
   }
 
@@ -1114,7 +1114,7 @@ iframe {
     border: none;
   }
 
-  .smaller_flex_item{
+  .smaller_flex_item {
     flex-basis: 25%;
   }
 
@@ -1136,7 +1136,7 @@ iframe {
     width: 60%;
   }
 
-  .mini_gallery{
+  .mini_gallery {
     height: 400px;
   }
 
@@ -1166,7 +1166,8 @@ iframe {
     margin: 0;
   }
 
-  .breadcrumbs h1,.breadcrumbs h2 {
+  .breadcrumbs h1,
+  .breadcrumbs h2 {
     font-size: large;
     display: inline-block;
     padding: 5px;
@@ -1196,7 +1197,7 @@ iframe {
   }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
   /* Header */
 
   nav {
@@ -1218,7 +1219,7 @@ iframe {
     height: 350px;
   }
 
-  #welcome_img img{
+  #welcome_img img {
     height: 300px;
     width: 100%;
     left: 0;
@@ -1242,7 +1243,8 @@ iframe {
 
   /* General */
 
-  p , li{
+  p,
+  li {
     font-size: 0.8em;
   }
 
@@ -1257,14 +1259,16 @@ iframe {
     width: 80%;
   }
 
-  #about_us .text_right p,#about_us .text_right h1{
+  #about_us .text_right p,
+  #about_us .text_right h1 {
     position: relative;
     display: block;
     text-align: center;
     width: 80%;
   }
 
-  #about_us #text_left p,#about_us #text_left h1{
+  #about_us #text_left p,
+  #about_us #text_left h1 {
     position: relative;
     display: block;
     text-align: center;
@@ -1298,7 +1302,7 @@ iframe {
   }
 
   .instructions #explanation div {
-    flex-basis: 100% ;
+    flex-basis: 100%;
   }
 
   /* Animal Card */
