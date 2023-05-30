@@ -532,6 +532,13 @@ footer i:hover {
 
 /* Index flex grid */
 
+.smaller_flex_item figure h1 {
+  text-align: center;
+  color: darkred;
+  font-size: xx-large;
+  margin-bottom: 30px;
+}
+
 .index_flex_contener {
   background-color: rgb(6, 6, 92);
   border: 4px solid #5a2a0f;
@@ -975,6 +982,7 @@ iframe {
 
   .index_flex_contener {
     display: flex;
+    background-color:#5a2a0f ;
   }
 
   #world_map{
@@ -1192,7 +1200,7 @@ iframe {
   /* Header */
 
   nav {
-    width: 65%;
+    width: 70%;
     align-items: flex-start;
   }
 
